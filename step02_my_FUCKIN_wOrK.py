@@ -93,7 +93,7 @@ def proccessing_individual_frames():
     # use glob.glob
     #frame_list = get_image_list(path to folder with frames)
     
-    frame_list = get_frames("C:\\plate_reader_frames")
+    frame_list = get_frames("/Users/rpglover/AAAPROJ/plate_reader/yolo8_data")
     
     vehicles = [2, 3, 5, 7]
 
@@ -161,6 +161,8 @@ def proccessing_individual_frames():
 
 
 if __name__ == "__main__":
+
+    
     proccessing_individual_frames()
 
     # proccessing_frames_from_videos()

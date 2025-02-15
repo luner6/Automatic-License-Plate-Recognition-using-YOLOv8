@@ -53,3 +53,20 @@ python add_missing_data.py
 ```python
 python visualize.py
 ```
+
+
+# Setting the environment using Anaconda Navigator
+
+1. Create a new env named PLATEREADERENV; using python > 3.12
+2. cd into folder; run conda install requirement.txt --- it did not work; ;fix me later
+
+
+Installing each package manually by opening the file and rigtht click,install. 
+
+```
+# use pip install for all the packages in the env. 
+pip install ultralytics
+
+```
+
+
