@@ -1,3 +1,11 @@
+
+
+# Adding args to the launch.json
+
+Note: if you want to use the config, pass the flag --use_config. If the intent is not to use the config
+remove the flag altogether. 
+
+```
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -15,3 +23,16 @@
         }
     ]
 }
+
+```
+
+
+
+
+# running from the terminal 
+
+```
+
+python .\step01_my_fucking_video_splitter.py -if "C:/Plate_reader" -of "C:/plate_reader_frames" -fname "highway.mp4"
+
+```
